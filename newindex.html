@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The best website :)</title>
+    </head>
+    <body>
+        <h1>Hvad er din favorit mad</h1>
+
+
+        <label for="mySelect">Vælg din mad:</label>    
+
+<select id="mySelect" onchange="myFunction()">
+    <option value="">--Vælg din favorit--</option>
+  <option value="Sandwich :)">Sandwich :)</option>
+  <option value="Spaghetti :)">Spaghetti :)</option>
+  <option value="Lasagne :)">Lasagne :)</option>
+  <option value="Pizza :)">Pizza :)</option>
+</select>
+
+<p>Vælg din favorit mad i select feltet over teksten.</p>
+
+<p id="demo"></p>
+
+
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("mySelect").value;
+      document.getElementById("demo").innerHTML = "You selected: " + x;
+    }
+    </script>
+    
+
+
+
+
+        </body>
+        
+    </html>
+    
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/2048px-Smiley.svg.png" width="200" height="200">
+
+
+
+
+
